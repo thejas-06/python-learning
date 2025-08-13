@@ -36,3 +36,11 @@ print(message[3:8])    # 3 where is start , 8 ending + 1
 print(message[25:])    # from character 25 to end
 print(message[:20])    # start to character 20
 print(message[::3])    # Start to end and skip Three character
+
+# escape sequence 
+message = "i am in the current line\ni am in the next line"
+print(message)
+message = "i am in the current line\t gap"
+print(message)
+message = "i am in the current line \\ or "
+print(message)
