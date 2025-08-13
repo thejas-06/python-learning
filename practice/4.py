@@ -22,3 +22,7 @@ print(message)
 message = '''  "hello" i am robot
     who are you '''
 print(message)
+
+
+#Finding length of a string 
+print(len(message))
