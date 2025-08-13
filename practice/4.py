@@ -26,3 +26,13 @@ print(message)
 
 #Finding length of a string 
 print(len(message))
+
+# Accessing string 
+print(message[3])  # first character is 0
+print(message[-4]) # Start counting from end (first -1)
+
+# String slicing 
+print(message[3:8])    # 3 where is start , 8 ending + 1
+print(message[25:])    # from character 25 to end
+print(message[:20])    # start to character 20
+print(message[::3])    # Start to end and skip Three character
