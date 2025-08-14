@@ -10,3 +10,7 @@ print(user.upper())
 print(user.lower())
 print(user.split())
 print(user.replace(" " , "_"))
+
+#finding length of a string with excluding space
+greet = input("hi:")
+print(len(greet.replace(' ' , '')))
