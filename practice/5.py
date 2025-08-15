@@ -12,5 +12,5 @@ print(user.split())
 print(user.replace(" " , "_"))
 
 #finding length of a string with excluding space
-greet = input("hi:")
+greet = input("hi what's tour doing:")
 print(len(greet.replace(' ' , '')))
