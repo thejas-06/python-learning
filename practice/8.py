@@ -51,5 +51,15 @@ print(sorted(number))
 add = sum(number)
 print(add)
 
+#methods
+fruits = ["banana", "apple", "orange"]
+print(fruits.index("orange"))
 
+count = [1,2,3,2,2]
+print(count.count(2))
 
+fruits.reverse() # We can not make separate list Using this 
+print(fruits)
+
+count.sort() #We can not make separate list Using this 
+print(count)
