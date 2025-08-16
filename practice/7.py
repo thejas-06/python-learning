@@ -22,8 +22,6 @@ print("\n")
 Name = input("enter your name:")
 print("a" in Name)
 print("AN" not in Name)
-print("\n")
-
 
 
 
