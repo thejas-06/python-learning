@@ -72,3 +72,4 @@ matrix = [[1,2,3],[4,5,6],[7,8,9]]
 print(matrix[0][1]) # This means in the first list i want the Index one element(2nd element)
 print(matrix[2][2])
 
+print(type(matrix)) #list
