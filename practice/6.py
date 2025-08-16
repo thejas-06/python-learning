@@ -40,4 +40,4 @@ print(~a)
 print(a << 1) 
 
 # Right shift
-print(a >> 1)  
+print(a >> 3)  
