@@ -41,6 +41,7 @@ print(iteam[1:])
 print(iteam[0::2]) # It prints a and c
 iteam2 = iteam[0:2]
 print(iteam2)
+print("\n")
 
 #functions
 number = [5,6,3,8,1]
@@ -50,6 +51,7 @@ print(sorted(number))
 
 add = sum(number)
 print(add)
+print("\n")
 
 #methods
 fruits = ["banana", "apple", "orange"]
@@ -63,3 +65,10 @@ print(fruits)
 
 count.sort() #We can not make separate list Using this 
 print(count)
+print("\n")
+
+#nested list
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+print(matrix[0][1]) # This means in the first list i want the Index one element(2nd element)
+print(matrix[2][2])
+
