@@ -42,3 +42,20 @@ print(student1.items())  # Returns key-value pairs as tuples
 
 new_update = {"branch" : "AI"}
 student1.update(new_update)
+
+
+person_1 = {
+    "name":"thejas",
+    "age":19,
+    "Leggage_weight":15
+}
+person_2 = {
+    "name":"dushyant",
+    "age":18,
+    "Leggage_weight":18
+}
+
+person = [person_1, person_2]
+print(person)
+
+print(f"total leggage weight:{person_1["Leggage_weight"]+person_2['Leggage_weight']}Kg")
