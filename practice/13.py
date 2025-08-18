@@ -35,4 +35,10 @@ print(student2)
 # student1.clear() 
 
 
+#Dictionary methods
+print(student1.keys())  #it prints all dictionary keys
+print(student1.values()) #it prints all dictionary values
+print(student1.items())  # Returns key-value pairs as tuples
 
+new_update = {"branch" : "AI"}
+student1.update(new_update)
