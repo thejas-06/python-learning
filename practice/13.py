@@ -15,3 +15,24 @@ student2 = {
 print(student1["name"])
 print(student2.get("name"))
 print(student1.get("college" , "not found"))  #using get() it do not give error 
+
+#adding element to dictionaries
+student1["college"] = "MIT"
+student2["college"] = "MIT"
+print(student1)
+print(student2)
+
+#updating
+student2["college"] = "VV"
+print(student2)
+
+#removing element
+student1.pop("college")
+print(student1)
+del student2["college"]
+print(student2)
+
+# student1.clear() 
+
+
+
