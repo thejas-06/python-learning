@@ -1,5 +1,6 @@
-# 🐍 My Python Learning Journey
+#  Python Learning Journey
 
-Hi there! 👋  
-I’ve recently started learning **Python**, one of the most popular and beginner-friendly programming languages in the world.  
-If you are also enthusiastic about learning Python, you can **join me** on this journey. Let’s grow together! 🚀
+Welcome to my **Python Learning Repository**
+This repo is where i will document my progress as I learn Python from the basics to advanced concepts.  
+If you’re also enthusiastic about Python, feel free to **learn along with me**. 
+
