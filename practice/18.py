@@ -22,3 +22,12 @@ students = {
 
 for name, usn in students.items():  #we can also use .values() when we don't want keys
     print(f"{name} - {usn}")   
+
+
+#for loop with range
+student = ["thejas","ragesh", "dusyhant"]
+markes = [85,60,90]
+students = {}
+for i in range(len(student)):
+    students[student[i]] = markes[i]
+print(students) 
