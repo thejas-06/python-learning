@@ -96,7 +96,7 @@ print("Reversed:", reverse)
 # 6. Generate the Fibonacci sequence up to N terms
 
 n = 7
-a, b = 0, 1   # first two numbers
+a, b = 0, 1   
 print(a, b, end=" ")
 
 for _ in range(2, n):  # start from 2 since 0 and 1 are already printed
