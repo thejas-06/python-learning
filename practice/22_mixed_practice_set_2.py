@@ -1,6 +1,6 @@
+#string
 
-                                                                     #string
-# 1. Count vowels a string
+# 1. Count vowels in a string
 
 st = input("enter any string: ").lower()
 vowels = "aeiou"
@@ -12,7 +12,8 @@ for i in st:
 
 print("vowels:", vowel_count)
 
-           #or
+#or
+
 text = input("enter any string: ").lower()
 vowels = "aeiou"
 vowel_count = 0
@@ -34,7 +35,7 @@ for i in text:
 
 print("Result:", result)
 
-          #or
+#or
 
 text = input("enter the string: ")
 result = "".join(dict.fromkeys(text)) #creates a dictionary with characters as keys
@@ -54,7 +55,7 @@ for word in words:
 
 print("Longest word:", longest)
 
-                  #or
+#or
 
 sentence = "I love programming in Python"
 words = sentence.split()
@@ -66,7 +67,7 @@ print("Longest word:", longest)
 
 
 
-                                                                     #loops
+#loops
 
 #4. Print a diamond pattern with *
 n = 4
@@ -103,4 +104,3 @@ for _ in range(2, n):  # start from 2 since 0 and 1 are already printed
     c = a + b
     print(c, end=" ")
     a, b = b, c
-

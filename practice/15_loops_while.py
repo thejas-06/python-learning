@@ -12,7 +12,7 @@ while i<=10:
 db = "1010"
 trail  = 1
 while trail<=3:
-    pin =(input(f"trail {trail} | pin-->"))
+    pin =input(f"trail {trail} | pin-->")
     trail+=1
     if pin == db:
         print("correct")

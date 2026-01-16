@@ -11,6 +11,8 @@ print(list)
 list.pop(2)
 print(list)
 
+#------------------------------------------------------------
+
 number = [3,1,2,8]
 sorted_number = sorted(number , reverse=True)
 print("original list:", number)

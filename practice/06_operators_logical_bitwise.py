@@ -6,6 +6,8 @@ print(rain or wet)
 print(not rain)
 print("\n")
 
+#------------------------------------------------------
+
 #Membership Operators (in and not in)
 n1 = "thejas" 
 n2 = "thejas_an"
@@ -19,6 +21,8 @@ print(" " in name or name != "")
 age = input("are you 18+, yes or no:")
 print(("yes" in age))
 print("\n")
+
+#------------------------------------------------------
 
 #bitwise operator
 a = 2 #in binary 010

@@ -7,7 +7,7 @@ student1 = {
 
 student2 = {
     "name" : "dushyant",
-    "USN" : "4MH23CA002",
+    "USN" : "4MH23CA014",
     "sem" : 5.0
 }
 
@@ -46,12 +46,12 @@ student1.update(new_update)
 
 person_1 = {
     "name":"thejas",
-    "age":19,
-    "Leggage_weight":15
+    "age":20,
+    "Leggage_weight":17
 }
 person_2 = {
     "name":"dushyant",
-    "age":18,
+    "age":19,
     "Leggage_weight":18
 }
 

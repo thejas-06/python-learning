@@ -1,4 +1,4 @@
-                        ###Swapping two numbers without a 3rd variable
+###Swapping two numbers without a 3rd variable
 
 # Method 1: Using arithmetic
 print("whitout 3rd variable by arithmetic:")
@@ -21,7 +21,9 @@ p, q = q, p
 
 print(p , q)
 
-                        # Swapping two numbers with 3rd variable
+#----------------------------------------------------------------
+
+# Swapping two numbers with 3rd variable
 print("with variable:")
 
 a=10

@@ -7,6 +7,8 @@ print(n1<5 or n2<5)
 print(not(n1>n2)) # first number is not greater than second number 
 print("\n")
 
+#--------------------------------------------------------------------
+
 #Comparison Operator
 age = int(input("enter your age:"))
 if age <= 0:
@@ -17,6 +19,7 @@ else:
     print("your not eligible")
 print("\n")
 
+#------------------------------------------------------------------------
 
 #membership operator
 Name = input("enter your name:")

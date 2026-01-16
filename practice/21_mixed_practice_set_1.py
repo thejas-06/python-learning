@@ -9,9 +9,9 @@ print(f"String: '{str(num)}' (type: {type(str(num))})")
 
 # 2.	Enter cost of 3 items from the user (using float data type) – a pencil, a pen, and an eraser. You have to output the total cost of the items as the bill
 
-pencil = float(input("enter the cost: "))
-pen = float(input("enter the cost: "))
-eraser = float(input("enter the cost: "))
+pencil = float(input("enter the cost of pencil: "))
+pen = float(input("enter the cost pen: "))
+eraser = float(input("enter the cost eraser: "))
 print(f"total bill was:{pencil+pen+eraser}")
 
 
@@ -30,8 +30,8 @@ length =len(name.replace(" " , ""))
 print(length)
 
 
-string = input()
-character = input()
+string = input("enter the string: ")
+character = input("enter the character to count: ")
 print(string.count(character))
 
 

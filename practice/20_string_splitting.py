@@ -9,5 +9,6 @@ print(spl)
 
 
 integer = input("enter the number of integer: ").split()
+print(integer)
 inte = [int(i) for i in integer]
 print(inte)

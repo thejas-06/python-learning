@@ -34,6 +34,8 @@ iteam.clear()
 print(iteam) # it delete entire list or all element 
 print("\n")
 
+#---------------------------------------------------------------
+
 #slicing list
 iteam = ["a","b","c","d"]
 print(iteam[0:2]) #print a and b
@@ -42,6 +44,8 @@ print(iteam[0::2]) # It prints a and c
 iteam2 = iteam[0:2]
 print(iteam2)
 print("\n")
+
+#------------------------------------------------
 
 #functions
 number = [5,6,3,8,1]
@@ -53,12 +57,14 @@ add = sum(number)
 print(add)
 print("\n")
 
+#---------------------------------------------------------------
+
 #methods
 fruits = ["banana", "apple", "orange"]
 print(fruits.index("orange"))
 
 count = [1,2,3,2,2]
-print(count.count(2))
+print(count.count(2)) #Counting how many elements in a list
 
 fruits.reverse() # We can not make separate list Using this 
 print(fruits)
@@ -66,6 +72,8 @@ print(fruits)
 count.sort() #We can not make separate list Using this 
 print(count)
 print("\n")
+
+#--------------------------------------------------------------------------
 
 #nested list
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
