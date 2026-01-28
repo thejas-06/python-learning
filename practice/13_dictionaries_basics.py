@@ -58,4 +58,4 @@ person_2 = {
 person = [person_1, person_2]
 print(person)
 
-print(f"total leggage weight:{person_1["Leggage_weight"]+person_2['Leggage_weight']}Kg")
+print(f"total leggage weight:{person_1['Leggage_weight']+person_2['Leggage_weight']}Kg")

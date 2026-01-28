@@ -14,7 +14,7 @@ print(set1 - set2) #difference
 print(set2 - set1) #difference
 print(set1 ^ set2) #symmetric difference
 
-#set meyhods
+#set methods
 set = {"apple", "orange"}
 print(set)
 
