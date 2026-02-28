@@ -5,7 +5,7 @@ My hands-on learning path from Python basics to the data science stack. Everythi
 ## What's Covered
 
 ### Python
-Basics, data structures, control flow, functions, OOP, error handling, file handling, decorators, generators, and more. 42 files covering the language from scratch to advanced topics like `*args/**kwargs`, pattern matching, and custom packages.
+Basics, data structures, control flow, functions, OOP, error handling, file handling, decorators, generators, and more.
 
 ### NumPy
 Array operations, indexing, reshaping, and mathematical computations.
@@ -32,10 +32,3 @@ Matplotlib/      -> Data visualization basics
 Seaborn/         -> Statistical plotting
 SQLite3/         -> Database operations
 ```
-
-## Tools Used
-
-- Python 3.11
-- Jupyter Notebook
-- NumPy, Pandas, Matplotlib, Seaborn
-- SQLite3
